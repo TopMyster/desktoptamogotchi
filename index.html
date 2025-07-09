@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tamogotchi</title>
+        <meta lang="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="Tamogotchi">
+            <div id="dragspot"></div>
+            <img id="logo" width="150px" src="logo.png">
+            <div id="screen">
+                <img id="pet" src="pet.png">
+            </div>
+            <button class="button" id="s1"onclick="feed()">Feed</button>
+            <button class="button" id="s2"onclick="play()">Play</button>
+            <button class="button" id="s3" onclick="stats()">Stats</button>
+        </div>
+        <div id="playscreen">
+            <input type="number" min="0" max="5" id="textin">
+            <button class="guess" id="subguess">Guess</button>
+            <h1 id="guesss">?</h1>
+        </div>
+        <div id="statsscreen">
+            <h3 id="foodlevel"></h3>
+            <h3 id="playlevel"></h3>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

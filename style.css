@@ -1,0 +1,214 @@
+body {
+    background-color: rgba(240, 248, 255, 0);
+}
+
+#Tamogotchi {
+    width: 380px;
+    height: 450px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    text-align: center;
+    top: 100px;
+    border-radius: 70% 70% 60% 60% / 80% 80% 60% 60%;
+    box-shadow: inset 10px 13px 10px 13px#424242a9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+#pet {
+    width: 200px;
+    bottom: 25px;
+    position: relative;
+    animation: alive 3s infinite;
+}
+
+@keyframes alive {
+    0% {
+        scale: 10%;
+    }
+
+     10% {
+        scale: 105%;
+    }
+
+     20% {
+        scale: 105%;
+    }
+}
+
+@keyframes feed {
+    0% {
+        rotate: 15deg;
+        rotate: -15deg;
+    }
+
+    10% {
+        rotate: 15deg;
+    }
+
+    30% {
+        rotate: -15deg;
+    }
+
+     40% {
+        rotate: 15deg;
+    }
+
+    50% {
+        rotate: -15deg;
+    }
+     60% {
+        rotate: 15deg;
+    }
+
+    70% {
+        rotate: -15deg;
+    }
+    80% {
+        scale: 120%;
+    }
+}
+
+@keyframes nothungry {
+      0% {
+        rotate: 5deg;
+        rotate: -5deg;
+        scale: 50%;
+    }
+
+    10% {
+        rotate: 5deg;
+    }
+
+    30% {
+        rotate: -5deg;
+    }
+
+     40% {
+        rotate: 5deg;
+    }
+
+    50% {
+        rotate: -5deg;
+    }
+     60% {
+        rotate: 5deg;
+    }
+
+    70% {
+        transform: -5deg;
+    }
+    80% {
+        scale: 20%;
+    }
+}
+
+
+#logo {
+    top: 50px;
+    position: relative;
+}
+
+#screen {
+    width: 200px;
+    height: 180px;
+    text-align: center;
+    top: 90px;
+    left: 90px;
+    position: relative;
+    background-color: rgb(125, 142, 121);
+    box-shadow: inset 10px 5px 10px 5px#1a1a1aa9;
+    font-family: 'tama';
+}
+#statsscreen{
+      width: 200px;
+    height: 180px;
+    text-align: center;
+    bottom: 230px;
+    left: 90px;
+    right: 5px;
+    position: relative;
+    background-color: rgb(125, 142, 121);
+    box-shadow: inset 10px 5px 10px 5px#1a1a1aa9;
+    font-family: 'tama';
+    display: none;
+}
+
+#playscreen{
+      width: 200px;
+    height: 180px;
+    text-align: center;
+    bottom: 212px;
+    left: 90px;
+    right: 5px;
+    position: relative;
+    background-color: rgb(125, 142, 121);
+    box-shadow: inset 10px 5px 10px 5px#1a1a1aa9;
+    display: none;
+}
+.button {
+    border: none;
+    position: relative;
+    top: 120px;
+    width: 36px;
+    height: 34px;
+    margin: 0px 8px 0px 8px;
+    border-radius: 100%;
+    text-align: center;
+    box-shadow: inset 2px 4px 2px 4px#969696a9;
+    font-size: 10px;
+}
+
+.button:active {
+    animation: press 1s;
+}
+
+@keyframes press {
+    0% {
+        scale: 90%;
+        box-shadow: inset 1px 3px 1px 3px#969696a9;
+    }
+}
+
+@font-face {
+    font-family: 'tama';
+    src: url(tamaconnecttype.ttf);
+}
+
+.guess {
+    border: none;
+    border-color: rgb(43, 57, 40);
+    font-family: 'tama';
+    background-color: rgb(43, 57, 40);
+    top: 105px;
+    position: relative;
+}
+
+#guesss {
+    border: none;
+    border-color: rgb(43, 57, 40);
+    font-family: 'tama';
+    background-color: rgb(43, 57, 40);
+    top: 90px;
+    position: relative;
+    font-family: "Noto Color Emoji", "Segoe UI Emoji", "Arial", sans-serif;
+}
+
+#textin {
+    top: 105px;
+    position: relative;
+    font-family: 'tama';
+    background-color: rgb(125, 142, 121);
+}
+
+#dragspot {
+    -webkit-app-region: drag;
+    width: 300px;
+    height: 130px;
+    left: 40px;
+    position: absolute;
+    background-color: rgba(0, 255, 255, 0);
+}
