@@ -1,7 +1,7 @@
 <sup>All designs of pets, device design, name tamagotchi, are owned by Bandico</sup>
 
 <h1>This is a Tamagotchi for your Mac</h1><br>
--It gets inactive<br>
+<h2>-It gets inactive</h2><br>
 -You can feed it<br>
 -Has a mini game<br>
 -It gets hungry<br>
