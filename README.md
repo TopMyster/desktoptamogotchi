@@ -2,9 +2,9 @@
 
 <h1>This is a Tamagotchi for your Mac</h1><br>
 <p>-It gets inactive</p><br>
-<h2>-You can feed it</h2><br>
-<h2>-Has a mini game</h2><br>
-<h2>-It gets hungry</h2><br>
+<p>-You can feed it</p><br>
+<p>-Has a mini game</p><br>
+<p>-It gets hungry</p><br>
 
 
 
